@@ -1,17 +1,15 @@
 <template>
-  <div id="app">
+    <div id="app">
 
-  </div>
+    </div>
 </template>
 
 <script>
 
 
-export default {
-
-}
+    export default {}
 </script>
 
 <style>
-
+    @import "./assets/css/base.css";
 </style>
