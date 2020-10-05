@@ -1,7 +1,7 @@
 <template>
   <tab-bar>
     <tab-bar-item path="/home" activeColor="red">
-      <img slot="item-icon" src="../../../assets/img/tabBar/home.svg" alt="">
+      <img slot="item-icon" src="~assets/img/tabBar/home.svg" alt="">
       <img slot="item-icon-active" src="~assets/img/tabBar/home-active.svg" alt="">
       <div slot="item-text">首页</div>
     </tab-bar-item>
