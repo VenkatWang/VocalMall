@@ -34,7 +34,7 @@ const router = new VueRouter({
   mode: 'history'
 })
 
-
+//避免重复点击时报错
 const originalPush = VueRouter.prototype.replace
 VueRouter.prototype.replace = function replace(location) {
   return originalPush.call(this, location).catch(err => err)

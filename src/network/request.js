@@ -62,10 +62,10 @@ export function request(config) {
     console.log(err);
   })
   //2.响应式拦截
-  instance4.interceptors.response.use(res=>{
+  instance4.interceptors.response.use(res => {
     // console.log(res);
     return res.data
-  },err=>{
+  }, err => {
     console.log(err);
   })
 
